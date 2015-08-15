@@ -1,0 +1,148 @@
+\documentclass[9pt,letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{bibunits}
+
+\renewcommand{\labelitemii}{$\cdot$}
+
+%remove "References" headings
+\usepackage{etoolbox}
+\AtBeginEnvironment{bibunit}{\renewcommand\section[5]{}}
+
+\singlespacing
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Barry Van Tassell}}\\
+  \begin{multicols}{3}
+    {\small The City College of New York \\
+    160 Convent Ave \\
+  New York, NY 10031}\\
+  \columnbreak
+  \emph{\small (845) 702-2072\\
+    bajavata@gmail.com}\\
+  \columnbreak
+    {\small Princeton University \\
+    Engineering Quad, Olden Street \\
+    Princeton, NJ 08544}
+  \end{multicols}
+  \line(1,0){450}
+\end{center}
+
+\onehalfspacing
+
+{\singlespacing
+\noindent \textbf{EDUCATION}
+\newline
+}
+{\small
+\indent \emph{The City College of New York, New York, NY}
+
+\indent \indent Pursuing: PhD in Chemical Engineering (2011-present)
+
+\indent \indent Degree: Master of Engineering in Chemical Engineering (2011)
+
+\indent \emph{University at Buffalo, Buffalo, NY}
+
+\indent \indent Degree: Bachelor of Science in Chemical Engineering (2008)
+\begin{center}
+  \line(1,0){450}
+\end{center}
+}
+
+{\singlespacing
+\noindent \textbf{CORE SKILLS}
+
+{\small\begin{itemize}
+\item Academic background in chemical engineering, with a research focus on printed electronics and printed batteries
+\item Strong do-it-yourself attitude that often leads to unique solutions to difficult problems
+\item Entirely self-taught expertise in programming, electronics, and the use of programming to interface with equipment
+\item Advanced proficiency in Python, C, Clojure, \LaTeX, Haskell, AVR-C (Arduino), and Lua
+\end{itemize}}}
+
+\begin{center}
+  \line(1,0){450}
+\end{center}
+
+{\singlespacing
+\noindent \textbf{WORK EXPERIENCE}
+
+{\small
+\begin{itemize}
+  \item \noindent Graduate Researcher and Trailing Student, \emph{Princeton University, Princeton, NJ} \hfill {\scriptsize Jun 2013 to Present}
+    {\footnotesize\begin{itemize} 
+        \item Built and designed large scale automated spray deposition system
+        \item Developed a multi-material reactive spray process to synthesize arbitrary electrode materials on-surface
+        \item Synthesized Li-ion electrode material using an adjustable combination of reactants and conductive filler
+    \end{itemize}}
+  \item \noindent Graduate Researcher, \emph{The City College of New York, New York, NY} \hfill {\scriptsize Jan 2010 to Present}
+    {\footnotesize\begin{itemize} 
+        \item Discovered a novel film treatment to prevent dewetting of a polymer dielectric film, which was formally \\ submitted to the US patent office and patent pending as of 2013
+        \item Developed a spray deposition process for novel nanoparticle dielectric materials for thin film capacitors
+        \item Designed open-sourced hardware and software for inexpensive electrochemical testing 
+    \end{itemize}}
+  \item \noindent Assistant in Instruction (AI), \emph{Princeton University, Princeton, NJ} \hfill {\scriptsize Jul 2013 to Jan 2014} 
+    {\footnotesize\begin{itemize} 
+        \item Designed lab exercises to teach basic thermodynamics, electronics, and programming
+        \item Performed teaching assistant duties including hands-on teaching of basic electronics and programming  
+    \end{itemize}}
+  \item \noindent Research Intern, \emph{Palo Alto Research Center (PARC), Palo Alto, CA} \hfill {\scriptsize Jan to Jun 2013}
+    {\footnotesize\begin{itemize} 
+        \item Designed and authored in-house software for data acquisition, data analysis, and image analysis
+        \item Performed a systematic analysis of gravure printed conductors, dielectrics, and semiconductors
+    \end{itemize}}
+  \item \noindent Professional Tutor, \emph{Orange County Community College, Newburgh, NY} \hfill {\scriptsize Jan 2009 to Dec 2010}
+    {\footnotesize\begin{itemize} 
+        \item Tutored individual students in math, chemistry, and physics
+        \item Utilized extensive practical knowledge and patience to tailor each tutoring session to the student's learning style
+        \item Received ubiquitously positive feedback and reviews from students in all fields
+    \end{itemize}}
+  \item \noindent Field and Laboratory Technician, \emph{Orange County West Nile Surveillance Study, Middletown, NY} \hfill {\scriptsize Summer 2005 and 2009}
+    {\footnotesize\begin{itemize} 
+        \item Captured and reared mosquito adult and larvae samples
+        \item Identified adult mosquitos to species and prepared them for viral testing
+        \item Built and maintained species and location data in Microsoft Access 
+    \end{itemize}}
+  %\item Chemical Engineering Intern, \emph{Contract Pharmaceuticals Limited, Buffalo, NY}
+  %\begin{itemize} \item Summer 2007 \end{itemize}
+\end{itemize}}
+}
+
+\begin{center}
+  \line(1,0){450}
+\end{center}
+
+{\singlespacing
+\noindent \textbf{OTHER EXPERIENCE}
+
+{\small\begin{itemize}
+\item Authored and maintained an addon for a popular online game. The addon had approximately 70,000 active users worldwide as of August 2012.
+%\begin{itemize} \item November 2008 to Present \end{itemize}
+\end{itemize}}}
+
+\newpage
+
+\singlespacing
+
+\noindent \textbf{PUBLICATIONS}
+\begin{bibunit}[unsrt]
+  \small
+  \nocite{*}
+  \putbib[citations]
+\end{bibunit}
+
+\begin{center}
+  \line(1,0){450}
+\end{center}
+
+\noindent \textbf{PRESENTATIONS}
+\begin{bibunit}[unsrt]
+  \small
+  \nocite{*}
+  \putbib[citations2]
+\end{bibunit}
+
+\end{document}
