@@ -1,3 +1,3 @@
 # My name is Barry Van Tassell, and this is my resume.
 
-[Click here for the PDF](resume.pdf)
+[Click here for the PDF](https://yakbarber.github.com/resume/master/resume.pdf)
